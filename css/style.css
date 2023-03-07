@@ -1,9 +1,23 @@
 .col-md-3 img {
-    height: 300px;
-  }
+  height: 300px;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
+.contact-container section {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form .row {
+  margin-bottom: 10px;
+}
+iframe {
+  width: 99%;
+}
 .about-card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .avatar img {
   display: none;
@@ -31,18 +45,17 @@ main section {
   margin: 0;
 }
 .details li {
-    list-style: none;
-    line-height: 1.7em;
-  }
+  list-style: none;
+  line-height: 1.7em;
+}
 .details li::before {
   content: url(../images/arrow-right-short.svg);
   display: inline-block;
   margin-right: 3px;
 }
 .details li span {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 @media screen and (min-width: 1000px) {
   .navbar {
@@ -105,15 +118,32 @@ main section {
     height: 100px;
     display: flex;
     flex-direction: row;
-    
   }
   .details ul {
     display: flex;
     flex-direction: column;
     width: 50%;
   }
-  .about-card{
+  .about-card {
     flex-direction: row;
-}
-  
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: 29% 68%;
+    grid-template-rows: 100%;
+    grid-template-areas: "contact-details contact-form";
+  }
+  .contact-form {
+    margin-left: 3%;
+  }
+
+  #message {
+    height: 400%;
+  }
+  .button {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    margin-left: 25%;
+  }
 }
