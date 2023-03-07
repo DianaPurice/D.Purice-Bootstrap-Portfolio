@@ -9,9 +9,19 @@
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
 }
-
-
-
+.jumbotron {
+    background-image: url(../images/photo_2023-03-07_15-05-45.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main section {
+    margin: 10px;
+}
+.line {
+    border-top: 2px solid black;
+    width: 80px;
+}
 
 
 
@@ -58,15 +68,15 @@
     }
     .jumbotron {
         height: 100vh;
-        background-image: url(../images/photo_2023-03-07_15-05-45.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        
     }
     .jumbotron .container {
         text-align: end;
         display: flex;
         flex-direction: column;
         justify-items: end;
+    }
+    .social img {
+        height: 20px;
     }
 }
