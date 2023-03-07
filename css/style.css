@@ -1,3 +1,12 @@
+.tableContainer img {
+    width: 100%;
+}
+.tableContainer .card {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 .col-md-3 img {
   height: 300px;
 }
@@ -164,4 +173,43 @@ main section {
     margin-bottom: 60px;
     margin-left: 25%;
   }
+  .tableContainer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 33% 33% 33% ;
+    grid-template-areas: 
+    "first first first"
+    "second third fourth"
+    "fifth sixth seventh"
+  }
+  #first {
+    grid-area: first;
+    display: flex;
+    flex-direction: row;
+  }
+  #first img {
+    height: 100%;
+  }
+  #second {
+    grid-area: second;
+  }
+  #third {
+    grid-area: third;
+  }
+  #fourth {
+    grid-area: fourth;
+  }
+  #fifth {
+    grid-area: fifth;
+  }
+  #sixth {
+    grid-area: sixth;
+  }
+  #seventh {
+    grid-area: seventh;
+  }
+  .tableContainer .card {
+    margin: 10px;
+}
+
 }
