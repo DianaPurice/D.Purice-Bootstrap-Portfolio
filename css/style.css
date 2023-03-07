@@ -1,12 +1,48 @@
-.tableContainer img {
-    width: 100%;
+footer {
+  background-color: rgba(36, 46, 33, 255);
+  color: rgb(218, 233, 228);
+  text-align: center;
+  box-shadow: 8px 4px 8px 0 rgba(123, 115, 115, 0.2), 8px 6px 20px 0 rgba(128, 121, 121, 0.19)
 }
-.tableContainer .card {
-    width: 100%;
-    padding: 10px;
+.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
     margin-top: 10px;
 }
+.footerLink {
+    padding: 5px;
+    color: rgba(36, 46, 33, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.footerLink:hover {
+    box-shadow: 0 4px 8px 0 rgba(123, 115, 115, 0.2), 0 6px 20px 0 rgba(128, 121, 121, 0.19);
+    background-color: rgba(36, 46, 33, 255);;
+}
 
+body {
+  background-color: rgb(218, 233, 228);
+}
+.navbar-toggler img {
+  width: 20px;
+}
+.tableContainer img {
+  height: 200px;
+}
+.tableContainer .card {
+  width: 98%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.tableContainer .card-body {
+  padding-left: 0;
+}
+.jumbotron {
+  padding: 0;
+  height: 30vh;
+}
 .col-md-3 img {
   height: 300px;
 }
@@ -15,9 +51,8 @@
   flex-direction: column;
   text-align: center;
 }
-.contact-details a{
-    margin-bottom: 5px;
-    
+.contact-details a {
+  margin-bottom: 5px;
 }
 .contact-container section {
   padding: 20px;
@@ -27,16 +62,16 @@ form .row {
   margin-bottom: 10px;
 }
 #location::before {
-    content: url(../images/geo-fill.svg);
-    margin-right: 5px;
+  content: url(../images/geo-fill.svg);
+  margin-right: 5px;
 }
 #emails::before {
-    content: url(../images/envelope-fill.svg);
-    margin-right: 5px;
+  content: url(../images/envelope-fill.svg);
+  margin-right: 5px;
 }
 #call::before {
-    content: url(../images/telephone-fill.svg);
-    margin-right: 5px;
+  content: url(../images/telephone-fill.svg);
+  margin-right: 5px;
 }
 iframe {
   width: 99%;
@@ -48,6 +83,10 @@ iframe {
 }
 .avatar img {
   display: none;
+}
+nav {
+  background-color: rgba(36, 46, 33, 255) !important;
+  color: rgb(218, 233, 228);
 }
 .navbar-collapse {
   display: flex;
@@ -101,7 +140,7 @@ main section {
     display: block;
     width: 150px;
     height: 150px;
-    border: 10px solid black;
+    border: 5px solid rgb(218, 233, 228);
     border-radius: 50%;
   }
   .avatar a {
@@ -115,6 +154,10 @@ main section {
   .navbar-nav {
     -ms-flex-direction: column !important;
     flex-direction: column !important;
+  }
+  .navbar-nav a {
+    color: rgb(218, 233, 228);
+    padding: 15px;
   }
   body {
     display: flex;
@@ -133,6 +176,7 @@ main section {
     display: flex;
     flex-direction: column;
     justify-items: end;
+    padding-top: 70px;
   }
   .social img {
     height: 20px;
@@ -170,25 +214,32 @@ main section {
   .button {
     position: absolute;
     bottom: 0;
-    margin-bottom: 60px;
+    margin-bottom: 130px;
     margin-left: 25%;
   }
   .tableContainer {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 33% 33% 33% ;
-    grid-template-areas: 
-    "first first first"
-    "second third fourth"
-    "fifth sixth seventh"
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+      "first first first"
+      "second third fourth"
+      "fifth sixth seventh";
   }
   #first {
     grid-area: first;
     display: flex;
     flex-direction: row;
+    width: 99.5%;
   }
   #first img {
     height: 100%;
+  }
+  #first .card-body {
+    width: 20%;
+    margin: 20px;
+    padding-top: 0;
+    margin-top: 0;
   }
   #second {
     grid-area: second;
@@ -210,6 +261,5 @@ main section {
   }
   .tableContainer .card {
     margin: 10px;
-}
-
+  }
 }
