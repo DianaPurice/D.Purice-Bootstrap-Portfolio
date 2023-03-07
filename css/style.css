@@ -50,6 +50,9 @@ nav {
 }
 
 /* about section */
+.details li a {
+  color: black;
+}
 .details ul {
   padding: 0;
   margin: 0;
@@ -86,7 +89,7 @@ nav {
   padding-left: 0;
 }
 .empty:hover {
-    cursor: default;
+  cursor: default;
 }
 
 /* contact section */
