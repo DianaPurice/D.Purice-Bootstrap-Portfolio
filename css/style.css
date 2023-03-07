@@ -4,9 +4,11 @@
 .contact-details {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .contact-details a{
     margin-bottom: 5px;
+    
 }
 .contact-container section {
   padding: 20px;
@@ -14,6 +16,18 @@
 }
 form .row {
   margin-bottom: 10px;
+}
+#location::before {
+    content: url(../images/geo-fill.svg);
+    margin-right: 5px;
+}
+#emails::before {
+    content: url(../images/envelope-fill.svg);
+    margin-right: 5px;
+}
+#call::before {
+    content: url(../images/telephone-fill.svg);
+    margin-right: 5px;
 }
 iframe {
   width: 99%;
@@ -142,12 +156,12 @@ main section {
   }
 
   #message {
-    height: 400%;
+    height: 600%;
   }
   .button {
     position: absolute;
     bottom: 0;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-left: 25%;
   }
 }
