@@ -1,0 +1,50 @@
+
+
+
+.avatar img {
+    display: none;
+}
+.navbar-collapse {
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .navbar {
+        width: 30vh;
+        height: 100vh;
+        position: fixed;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    }
+    .avatar {
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .avatar img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        border: 10px solid black;
+        border-radius: 50%;
+    }
+    .avatar a {
+        text-align: center;
+    }
+    .navbar-collapse {
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .navbar-nav {
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+}
