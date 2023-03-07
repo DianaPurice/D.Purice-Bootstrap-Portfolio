@@ -85,6 +85,9 @@ nav {
 .tableContainer .card-body {
   padding-left: 0;
 }
+.empty:hover {
+    cursor: default;
+}
 
 /* contact section */
 .contact-details {
