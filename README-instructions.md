@@ -28,67 +28,67 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
 ## Instructions
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`. xx
 
-2. Clone this repository to your computer.
+2. Clone this repository to your computer.xx
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.xx
    
-   - Create a folder structure.
+   - Create a folder structure.xx
 
-     - Create a `index.html`.
+     - Create a `index.html`.xx
 
-     - Create a `css` folder.
+     - Create a `css` folder.xx
 
-       - Inside create a `style.css` file.
+       - Inside create a `style.css` file.xx
 
-   - Create an `images` folder.
+   - Create an `images` folder.xx
 
-       - Place all your images in this folder.
+       - Place all your images in this folder.xx
 
 4. Using Bootstrap, recreate your portfolio site with the following items:
 
    The website should include the following bootstrap components:
 
-    - A Navigation bar
+    - A Navigation barxx
     
-    - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+    - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.xxx
 
-      - Include links that are applicable to your portfolio.
+      - Include links that are applicable to your portfolio.xxx
   
-        - Links should navigate to the appropriate sections 
+        - Links should navigate to the appropriate sections xxx
 
-    - A hero section
+    - A hero sectionxx
 
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+        - A jumbotron featuring your picture, your name, and any other information you'd like to include.xx
 
-    - A work section
+    - A work sectionxx
 
-      - A section displaying your work in grid. 
+      - A section displaying your work in grid. xx
 
-        - If you need to use placeholder image use: https://placehold.co/ 
+        - If you need to use placeholder image use: https://placehold.co/ xx
 
-      - Use bootstrap cards for each project.
+      - Use bootstrap cards for each project.xx
 
-        - The description should give a brief overview of the work.
+        - The description should give a brief overview of the work.xx
 
-      - Each project will eventually link to your class project work!
+      - Each project will eventually link to your class project work!xx
 
     - A skills section
 
       - List out the skills you expect to learn from the bootcamp.
 
-    - An about / contact section.
+    - An about / contact section.xxx
 
-      - An "About Me" section in the same row.
+      - An "About Me" section in the same row.xx
     
-    - A footer section.
+    - A footer section.xx
 
-      - All hyperlinks should have a hover effect.
+      - All hyperlinks should have a hover effect.xx
+x
+      - All buttons should display a box shadow upon hover.xx
 
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
+5. Your Bootstrap solution should minimize use of media queries. xxx
 
 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
