@@ -1,3 +1,6 @@
+a:hover {
+    text-decoration: none;
+}
 footer {
   background-color: rgba(36, 46, 33, 255);
   color: rgb(218, 233, 228);

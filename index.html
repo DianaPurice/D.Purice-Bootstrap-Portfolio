@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -20,24 +19,23 @@
       rel="stylesheet"
     />
     <!-- Font awesome icons-->
-    <link rel="stylesheet" href="https://kit.fontawesome.com/4b592e753a.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/4b592e753a.css"
+      crossorigin="anonymous"
+    />
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
-
-    
-
     <title>D.Purice</title>
   </head>
   <body>
     <!-- navigation section -->
     <nav class="navbar navbar-expand-lg">
+      <!-- Avatar section -->
       <div class="avatar">
-        <img
-          src="./images/1.jpg"
-          alt="profile picture"
-        /> <h3>Diana Purice</h3>
+        <img src="./images/1.jpg" alt="profile picture" />
+        <h3>Diana Purice</h3>
       </div>
-
       <button
         class="navbar-toggler"
         type="button"
@@ -48,23 +46,44 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(218, 233, 228)" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="social">
-          <a class="social-link" href="https://twitter.com/?lang=en-gb"
-            ><img src="./images/twitter.svg" alt="Twitter icon"></span></a
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="rgb(218, 233, 228)"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
           >
-          <a class="social-link" href="https://en-gb.facebook.com/"><img src="./images/facebook.svg" alt="Facebook icon"></a>
-          <a class="social-link" href="https://www.instagram.com/"><img src="./images/instagram.svg" alt="Instagram icon"></a>
-          <a class="social-link" href="https://www.skype.com/en/"><img src="./images/skype.svg" alt="Scype icon"></a>
-          <a class="social-link" href="https://gb.linkedin.com/"><img src="./images/linkedin.svg" alt="Linkedin icon"></a>
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+      </button>
+      <!-- Navigation list -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- Social links -->
+        <div class="social">
+          <a class="social-link" href="https://twitter.com/?lang=en-gb">
+            <img src="./images/twitter.svg" alt="Twitter icon" />
+          </a>
+          <a class="social-link" href="https://en-gb.facebook.com/"
+            ><img src="./images/facebook.svg" alt="Facebook icon"
+          /></a>
+          <a class="social-link" href="https://www.instagram.com/"
+            ><img src="./images/instagram.svg" alt="Instagram icon"
+          /></a>
+          <a class="social-link" href="https://www.skype.com/en/"
+            ><img src="./images/skype.svg" alt="Scype icon"
+          /></a>
+          <a class="social-link" href="https://gb.linkedin.com/"
+            ><img src="./images/linkedin.svg" alt="Linkedin icon"
+          /></a>
         </div>
+        <!-- On page links + resume -->
         <div class="navbar-nav">
-            <a class="nav-link" href="#home"
-            >Home</a>
+          <a class="nav-link" href="#home">Home</a>
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#">Resume</a>
           <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -72,204 +91,327 @@
         </div>
       </div>
     </nav>
-    
+
     <main>
-        <!-- jumbotron/ hero section -->
-        <div class="jumbotron jumbotron-fluid" id="home">
-            <div class="container">
-              <h1 class="display-4">Diana Purice</h1>
-              <p class="lead">Some text.</p>
+      <!-- jumbotron/ hero section -->
+      <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="container">
+          <h1 class="display-4">Diana Purice</h1>
+          <p class="lead">Some text.</p>
+        </div>
+      </div>
+      <!-- about section -->
+      <section id="about">
+        <h2 class="display-4">About</h2>
+        <p class="line"></p>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          laudantium quaerat dolorem, nulla expedita ipsam doloremque soluta
+          quae iusto placeat ipsum optio laboriosam sed, velit voluptatem nisi
+          hic obcaecati aliquam quo modi ut illum. Sunt architecto minus, sit
+          ratione facilis voluptatum vel distinctio quia ducimus obcaecati neque
+          rerum nam nostrum.
+        </p>
+        <!-- about section card -->
+        <div class="card mb-12">
+          <div class="row no-gutters about-card">
+            <div class="col-md-3">
+              <img src="./images/1.jpg" alt="..." />
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <h4 class="card-title">Front-End Web DEvelopment Student</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Fugiat nesciunt quaerat, ducimus natus perferendis quisquam.
+                  Debitis quas accusamus sed atque reiciendis necessitatibus
+                  dignissimos totam nostrum.
+                </p>
+                <div class="details">
+                  <ul>
+                    <li><span>Birthday: </span>14 May 1995</li>
+                    <li><span>Website: </span>githuib</li>
+                    <li><span>Phone: </span>07852564365</li>
+                    <li><span>City: </span>Birmingham, UK</li>
+                  </ul>
+                  <ul>
+                    <li><span>Age: </span>28</li>
+                    <li><span>Degree: </span>Bsc Honors computing</li>
+                    <li><span>Email: </span>d.purice23 @gmail.com</li>
+                    <li><span>Freelancer: </span>Not Available Yet</li>
+                  </ul>
+                </div>
+                <br />
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit corrupti maiores eos ipsa ducimus reiciendis.
+                  Molestias, repellendus illo beatae nostrum incidunt
+                  consequuntur provident at harum, ratione suscipit quam veniam
+                  unde minus, rerum in. Optio vero eveniet eaque odit sint,
+                  voluptates sequi blanditiis, et obcaecati consequatur quas
+                  debitis deleniti, exercitationem excepturi?
+                </p>
+              </div>
             </div>
           </div>
-          <!-- about section -->
-          <section id="about">
-            <h2 class="display-4">About</h2>
-            <p class="line"></p>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium quaerat dolorem, nulla expedita ipsam doloremque soluta quae iusto placeat ipsum optio laboriosam sed, velit voluptatem nisi hic obcaecati aliquam quo modi ut illum. Sunt architecto minus, sit ratione facilis voluptatum vel distinctio quia ducimus obcaecati neque rerum nam nostrum.</p>
-            <div class="card mb-12">
-                <div class="row no-gutters about-card">
-                  <div class="col-md-3">
-                    <img src="./images/1.jpg" alt="...">
-                  </div>
-                  <div class="col-md-9">
-                    <div class="card-body">
-                      <h4 class="card-title">Front-End Web DEvelopment Student</h4>
-                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat nesciunt quaerat, ducimus natus perferendis quisquam. Debitis quas accusamus sed atque reiciendis necessitatibus dignissimos totam nostrum.</p>
-                        <div class="details">
-                            <ul>
-                                <li><span>Birthday: </span>14 May 1995</li>
-                                <li><span>Website: </span>githuib</li>
-                                <li><span>Phone: </span>07852564365</li>
-                                <li><span>City: </span>Birmingham, UK</li>
-                            </ul>
-                            <ul>
-                                <li ><span>Age: </span>28</li>
-                                <li><span>Degree: </span>Bsc Honors computing</li>
-                                <li><span>Email: </span>d.purice23 @gmail.com</li>
-                                <li><span>Freelancer: </span>Not Available Yet</li>
-                            </ul>
-                        </div>
-                        <br>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corrupti maiores eos ipsa ducimus reiciendis. Molestias, repellendus illo beatae nostrum incidunt consequuntur provident at harum, ratione suscipit quam veniam unde minus, rerum in. Optio vero eveniet eaque odit sint, voluptates sequi blanditiis, et obcaecati consequatur quas debitis deleniti, exercitationem excepturi?</p>
-                      
-                    </div>
-                  </div>
+        </div>
+      </section>
+      <!-- portfolio section -->
+      <section id="portfolio">
+        <h2 class="display-4">Portfolio</h2>
+        <p class="line"></p>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+          asperiores quae, aut velit ipsa libero consequatur aliquam natus dolor
+          praesentium quaerat eaque sed quod dolore, vel odio. Reiciendis,
+          perferendis itaque rerum magni fuga, eligendi saepe nihil nemo sed
+          tempore odio labore quibusdam eveniet illo quisquam tempora
+          exercitationem repellendus inventore! Odit.
+        </p>
+        <!-- potfolio section grid -->
+        <div class="tableContainer">
+          <!-- potfolio section cards -->
+          <div class="card" id="first">
+            <div class="card-image">
+              <img src="./images/horiseon.jpg" class="card-img-top" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Horiseon</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML/CSS</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias ab rerum, consequatur unde voluptatum tempora sunt
+                neque magnam iusto quidem!
+              </p>
+            </div>
+          </div>
+          <div class="card" id="second">
+            <div class="card-image">
+              <img src="./images/portfolio2.png" class="card-img-top" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML/CSS</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+                omnis laboriosam ratione illo commodi quibusdam ipsa tempore
+                assumenda magni? Quo?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="third">
+            <div class="card-image">
+              <img
+                src="./images/bootstrap-portfolio.png"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap Portfolio</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML/CSS/BOOTSTRAP</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facere, expedita unde. Quis molestias cupiditate non eius
+                excepturi tenetur doloremque magni!
+              </p>
+            </div>
+          </div>
+          <div class="card" id="fourth">
+            <div class="card-image">
+              <img
+                src="https://placehold.co/700x300"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Language</h6>
+              <p class="card-text">Project description.</p>
+            </div>
+          </div>
+          <div class="card" id="fifth">
+            <div class="card-image">
+              <img
+                src="https://placehold.co/700x300"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Language</h6>
+              <p class="card-text">Project description.</p>
+            </div>
+          </div>
+          <div class="card" id="sixth">
+            <div class="card-image">
+              <img
+                src="https://placehold.co/700x300"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Language</h6>
+              <p class="card-text">Project description.</p>
+            </div>
+          </div>
+          <div class="card" id="seventh">
+            <div class="card-image">
+              <img
+                src="https://placehold.co/700x300"
+                class="card-img-top"
+                alt=""
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Language</h6>
+              <p class="card-text">Project description.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="display-4">Contact</h2>
+        <p class="line"></p>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+          asperiores quae, aut velit ipsa libero consequatur aliquam natus dolor
+          praesentium quaerat eaque sed quod dolore, vel odio. Reiciendis,
+          perferendis itaque rerum magni fuga, eligendi saepe nihil nemo sed
+          tempore odio labore quibusdam eveniet illo quisquam tempora
+          exercitationem repellendus inventore! Odit.
+        </p>
+        <!-- contact section maps -->
+        <div class="contact-container">
+          <section class="contact-details">
+            <h5 id="location">Location</h5>
+            <a href="#map"
+              >The University of Birmingham <br />
+              Edgbaston <br />
+              Birmingham <br />
+              B15 2TT <br />
+              United Kingdom</a
+            >
+            <h5 id="emails">Email</h5>
+            <a href="mailto:d.puride23@gmail.com">d.purice23@gmail.com</a>
+            <h5 id="call">Call</h5>
+            <a href="tel:07852564365">07852564365</a>
+            <iframe
+              id="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.563579534978!2d-1.9327021840606373!3d52.45082004910604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bdcf028ccfaf%3A0x5eb315231196339a!2sUniversity%20of%20Birmingham!5e0!3m2!1sen!2suk!4v1678208570717!5m2!1sen!2suk"
+              width="600"
+              height="400"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </section>
+          <!-- contact section form -->
+          <section class="contact-form">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="name">Your name</label>
+                  <input id="name" type="text" class="form-control" />
+                </div>
+                <div class="col">
+                  <label for="email">Your email</label>
+                  <input id="email" type="text" class="form-control" />
                 </div>
               </div>
-        </section>
-          <section id="portfolio">
-            <h2 class="display-4">Portfolio</h2>
-            <p class="line"></p>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, asperiores quae, aut velit ipsa libero consequatur aliquam natus dolor praesentium quaerat eaque sed quod dolore, vel odio. Reiciendis, perferendis itaque rerum magni fuga, eligendi saepe nihil nemo sed tempore odio labore quibusdam eveniet illo quisquam tempora exercitationem repellendus inventore! Odit.</p>
-          <div class="tableContainer">
-            <div class="card " id="first" >
-              <div class="card-image">
-                <img src="./images/horiseon.jpg" class="card-img-top" alt="">
+              <div class="row">
+                <div class="col">
+                  <label for="subject">Subject</label>
+                  <input id="subject" type="text" class="form-control" />
+                </div>
               </div>
-              
-              <div class="card-body">
-                <h5 class="card-title">Horiseon</h5>
-                <h6 class="card-subtitle mb-2 text-muted">HTML/CSS</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ab rerum, consequatur unde voluptatum tempora sunt neque magnam iusto quidem!</p>
+              <div class="row">
+                <div class="col">
+                  <label for="message">Message</label>
+                  <input id="message" type="text" class="form-control" />
+                </div>
               </div>
-            </div>
-            <div class="card " id="second" >
-              <div class="card-image">
-                <img src="./images/portfolio2.png" class="card-img-top" alt="">
+              <div class="button">
+                <input class="btn btn-secondary" type="submit" value="Submit" />
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Portfolio</h5>
-                <h6 class="card-subtitle mb-2 text-muted">HTML/CSS</h6>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit omnis laboriosam ratione illo commodi quibusdam ipsa tempore assumenda magni? Quo?</p>
-              </div>
-            </div>
-            <div class="card " id="third" >
-              <div class="card-image">
-                <img src="./images/bootstrap-portfolio.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Bootstrap Portfolio</h5>
-                <h6 class="card-subtitle mb-2 text-muted">HTML/CSS/BOOTSTRAP</h6>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, expedita unde. Quis molestias cupiditate non eius excepturi tenetur doloremque magni!</p>
-              </div>
-            </div>
-            <div class="card " id="fourth" >
-              <div class="card-image">
-                <img src="https://placehold.co/700x300" class="card-img-top" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Language</h6>
-                <p class="card-text">Project description.</p>
-              </div>
-            </div>
-            <div class="card " id="fifth" >
-              <div class="card-image">
-                <img src="https://placehold.co/700x300" class="card-img-top" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Language</h6>
-                <p class="card-text">Project description.</p>
-              </div>
-            </div><div class="card " id="sixth" >
-              <div class="card-image">
-                <img src="https://placehold.co/700x300" class="card-img-top" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Language</h6>
-                <p class="card-text">Project description.</p>
-              </div>
-            </div>
-            <div class="card " id="seventh" >
-              <div class="card-image">
-                <img src="https://placehold.co/700x300" class="card-img-top" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Language</h6>
-                <p class="card-text">Project description.</p>
-              </div>
-            </div>
-          </div>
+            </form>
           </section>
-          <section  id="contact">
-            <h2 class="display-4">Contact</h2>
-            <p class="line"></p>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, asperiores quae, aut velit ipsa libero consequatur aliquam natus dolor praesentium quaerat eaque sed quod dolore, vel odio. Reiciendis, perferendis itaque rerum magni fuga, eligendi saepe nihil nemo sed tempore odio labore quibusdam eveniet illo quisquam tempora exercitationem repellendus inventore! Odit.</p>
-          <div class="contact-container">
-            <section class="contact-details">
-
-                    <h5 id="location">Location</h5>
-                    <a href="#map">The University of Birmingham <br>
-                      Edgbaston <br>
-                      Birmingham <br>
-                      B15 2TT <br>
-                      United Kingdom</a>
-                    <h5 id="emails">Email</h5>
-                    <a href="mailto:d.puride23@gmail.com">d.purice23@gmail.com</a>
-                    <h5 id="call">Call</h5>
-                    <a href="tel:07852564365">07852564365</a>
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.563579534978!2d-1.9327021840606373!3d52.45082004910604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bdcf028ccfaf%3A0x5eb315231196339a!2sUniversity%20of%20Birmingham!5e0!3m2!1sen!2suk!4v1678208570717!5m2!1sen!2suk" width="600" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
-            </section>
-            <section class="contact-form">
-                <form>
-                    <div class="row">
-                      <div class="col">
-                        <label for="name">Your name</label>
-                        <input id="name" type="text" class="form-control" >
-                      </div>
-                      <div class="col">
-                        <label for="email">Your email</label>
-                        <input id="email" type="text" class="form-control" >
-                      </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="subject">Subject</label>
-                          <input id="subject" type="text" class="form-control" >
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="message">Message</label>
-                          <input id="message" type="text" class="form-control" >
-                        </div>
-                    </div>
-                    <div class="button">
-                      <input class="btn btn-secondary" type="submit" value="Submit">
-                    </div>
-                  </form>
-            </section>
-          </div>
-        </section>
-        <footer>
-          <div>Page footer</div>
-          <div class="footerLinks">
-            <a class="footerLink" href="#home" title="Home">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-house-fill" viewBox="0 0 16 16">
-                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
-                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
-              </svg>
-          </a>
-          <a class="footerLink" href="#about" title="About">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div>Page footer</div>
+        <div class="footerLinks">
+          <a class="footerLink" href="#home" title="Home">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="white"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+              />
+              <path
+                d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+              />
             </svg>
           </a>
-          <a class="footerLink" href="#portfolio" title="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-file-code-fill" viewBox="0 0 16 16">
-            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 1 1 .708-.708z"/>
-          </svg></a>
-          <a class="footerLink" href="#contact" title="Contact"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
-          </svg></a>
+          <a class="footerLink" href="#about" title="About">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="white"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              />
+            </svg>
+          </a>
+          <a class="footerLink" href="#portfolio" title="Contact">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="white"
+              class="bi bi-file-code-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 1 1 .708-.708z"
+              />
+            </svg>
+          </a>
+          <a class="footerLink" href="#contact" title="Contact"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="white"
+              class="bi bi-person-lines-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"
+              />
+            </svg>
+          </a>
         </div>
-        </footer>
+      </footer>
     </main>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
